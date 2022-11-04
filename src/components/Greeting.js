@@ -10,7 +10,7 @@ export const Greeting = () => {
   return (
     <>
       <div>Hello World!</div>
-      { !change && <p>It's good to see you!</p> }
+      <p>It's good to see you!</p>
       { change && <p>Change!</p> }
       <button onClick={changeParagraph}>Change</button>
     </>
